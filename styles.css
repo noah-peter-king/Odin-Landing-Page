@@ -1,0 +1,77 @@
+.header {
+    display: flex;
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+    font-size: 24px;
+    font-family: Roboto, Times, serif;
+    padding-bottom: 100px;
+}
+.links{
+    display: flex;
+    flex: 1;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 30px;
+    margin-top: auto;
+    margin-right: 120px;
+}
+.logo{
+    display: flex;
+    flex: 1;
+    font-weight: 900;
+    justify-content: center;
+    margin-top: 7px;
+    margin-right: 300px;
+}
+.subHeader{
+    display: flex;
+    flex: 1;
+    color: white;
+    background-color: #1f2937;
+    font-family: Roboto, Times, serif;
+    height: 250px;
+}
+.leftHero{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+#awesome {
+    display: flex;
+    font-size: 48px;
+    font-weight: 900;
+    text-wrap: pretty;
+    height: 100px;
+    width: 500px;
+    margin-bottom: 30px;
+    font-weight: 1000;
+}
+
+#heroMisc{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 450px;
+}
+button {
+    border-radius: 4px;
+    width: 75px;
+    height: 25px;
+    font-weight: 900;
+    border: none;
+    color: white;
+    background-color: #3882F6
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(/home/noah/Downloads/Roboto/Roboto-Regular.ttf)
+}
