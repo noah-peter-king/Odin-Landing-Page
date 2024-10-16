@@ -1,10 +1,12 @@
+body{
+    font-family: Roboto, Times, serif;
+}
 .header {
     display: flex;
     color: white;
     background-color: #1f2937;
     display: flex;
     font-size: 24px;
-    font-family: Roboto, Times, serif;
     padding-bottom: 100px;
 }
 .links{
@@ -60,8 +62,8 @@
 
 button {
     border-radius: 4px;
-    width: 75px;
-    height: 25px;
+    width: 90px;
+    height: 28px;
     font-weight: 900;
     border: none;
     color: white;
@@ -84,6 +86,7 @@ button {
     background-color: white;
     height: 250px;
     padding-top: 10px;
+    padding-bottom: 50px;
 }
 #infoHead{
     display: flex;
@@ -118,6 +121,75 @@ button {
     text-wrap: wrap;
     font-size: 14px;
 }
+.quoteBlock{
+    background-color: #E5E7EB;
+    padding: 100px;
+    color: #1f2937;
+
+}
+.quoteBlock p{
+    display: flex;
+    flex: 1;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    height: 225px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
+    font-family: times;
+}
+#quoted{
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    margin-right: 250px;
+    font-weight: 900;
+}
+.callTo{
+    display: flex;
+    flex: 1;
+    background-color: #3882F6;
+    border-radius: 9px;
+    margin: 80px 100px;
+    height: 100px;
+    width: auto;
+}
+.leftCall span{
+    color: white;
+    font-weight: 900;
+    font-size: 24px;
+}
+/* sorry for swears in previous commits*/
+.callTo button{
+    border:2px solid white;
+    align-self: center;
+    margin-left: auto;
+    margin-right: 100px;
+}
+.leftCall{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-left: 100px;
+    margin-right: auto;
+    
+}
+.footer{
+    display: flex;
+    flex: 1;
+    color: white;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+.footer div{
+    margin: 40px;
+    font-size: 14px;
+}
+
 
 
 
